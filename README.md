@@ -100,7 +100,7 @@ Sau khi chương trình hoạt động:
 
 Ba LED hoạt động với tốc độ khác nhau nhờ ba task FreeRTOS riêng biệt.
 
-6. Hướng dẫn chạy chương trình
+## 6. Hướng dẫn chạy chương trình
 
 Mở project STM32F10x trong môi trường phát triển.
 
@@ -118,7 +118,7 @@ Quan sát trạng thái nhấp nháy của 3 LED.
 
 Lưu ý: Nếu sử dụng LED tích hợp trên board, cần kiểm tra chân GPIO thực tế của LED và điều chỉnh mã nguồn khi cần thiết.
 
-7. Các hàm chính được sử dụng
+## 7. Các hàm chính được sử dụng
 
 Hàm
 
@@ -164,7 +164,7 @@ vTaskDelete()
 
 Xóa task FreeRTOS
 
-8. Kết luận
+## 8. Kết luận
 
 Bài tập minh họa cách sử dụng FreeRTOS để điều khiển nhiều thiết bị ngoại vi với các chu kỳ hoạt động khác nhau trên STM32F10x.
 
